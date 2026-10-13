@@ -1,0 +1,26 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build and environments
+build/
+dist/
+.venv/
+venv/
+.env
+
+# Jupyter and editor files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+__MACOSX/
+
+# GravTide3D large arrays and scratch files
+*.npy
+*.npz
+.gravtide3d_scratch/
