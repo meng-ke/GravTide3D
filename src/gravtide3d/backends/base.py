@@ -1,0 +1,13 @@
+from __future__ import annotations
+
+from typing import Protocol, Any
+
+
+class Backend(Protocol):
+    name: str
+    xp: Any
+
+    def asarray(self, x, dtype=None): ...
+    def to_numpy(self, x): ...
+    def synchronize(self) -> None: ...
+    def release(self) -> None: ...
